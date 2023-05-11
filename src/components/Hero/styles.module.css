@@ -60,7 +60,7 @@
 
   .professorImage {
     margin-top: 2rem;
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
   }
 }
 
@@ -69,12 +69,8 @@
     min-height: 85vh;
   }
 
-  .professorImage {
-    max-width: 12rem;
-  }
-
   .btgLogo {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-inline: 0.2rem;
   }
 
