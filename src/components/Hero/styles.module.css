@@ -1,0 +1,94 @@
+.container {
+  background-image: url('/cover.webp');
+  min-height: 100vh;
+  min-width: 100vw;
+  background-position: center;
+  background-size: cover;
+  padding: 0.4rem 0;
+}
+
+.btgLogo {
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  padding: 3.5rem;
+}
+
+.textWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 28rem;
+}
+
+.textAndImageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.professorImage {
+  max-width: 14rem;
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.9rem;
+  line-height: 110%;
+}
+
+.description {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 1200px) {
+  .textAndImageWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .professorImage {
+    margin-top: 2rem;
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    min-height: 85vh;
+  }
+
+  .professorImage {
+    max-width: 12rem;
+  }
+
+  .btgLogo {
+    margin-top: 2rem;
+    padding-inline: 0.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

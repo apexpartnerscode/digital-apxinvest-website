@@ -1,0 +1,10 @@
+mutation MyMutation($data: ProfessorCreateInput!) {
+  createProfessor(data: $data) {
+    active
+    photoName
+    professorId
+    slug
+    title
+    order
+  }
+}

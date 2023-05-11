@@ -1,0 +1,10 @@
+mutation createContact($data: ContactCreateInput!) {
+  createContact(data: $data) {
+    email
+    fullName
+    phone
+    brokers
+    openFildToBrokers
+    professorFk
+  }
+}

@@ -1,0 +1,8 @@
+mutation createPage($data: PageCreateInput!) {
+  createPage(data: $data) {
+    slug
+    title
+    order
+    active
+  }
+}

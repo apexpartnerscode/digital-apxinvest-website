@@ -1,0 +1,11 @@
+query Pages {
+  pages {
+    title
+    slug
+    professorLogo {
+      url(transformation: {document: {output: {format: webp}}})
+      width
+      height
+    }
+  }
+}

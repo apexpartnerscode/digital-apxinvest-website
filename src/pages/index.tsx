@@ -1,14 +1,19 @@
+import Hero from '@/components/Hero'
 import styles from '@/styles/Home.module.css'
-import { Inter } from 'next/font/google'
+import { Manrope } from 'next/font/google'
 import Head from 'next/head'
-import Image from 'next/image'
 
-const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <h1>Teste</h1>
+      <Head>
+        <title>APX Invest BTG, PLATAFORMA CUSTO ZERO E O MELHOR ATENDIMENTO TRADER DO BRASIL</title>
+      </Head>
+      <div className={manrope.className}>
+        <Hero />
+      </div>
     </>
   )
 }

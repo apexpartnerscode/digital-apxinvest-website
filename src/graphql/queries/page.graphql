@@ -1,0 +1,16 @@
+query Page($slug: String!) {
+  page (
+    where: {
+      slug: $slug
+    } 
+  ) {
+    title
+    active
+    professorId
+    professorLogo {
+      url(transformation: {document: {output: {format: webp}}})
+      width
+      height
+    }
+  }
+}
