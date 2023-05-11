@@ -6,17 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@azure/communication-email": "^1.0.0",
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.1.0",
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
+    "graphql": "^16.6.0",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-input-mask": "^2.0.4",
+    "typescript": "5.0.4",
+    "urql": "^4.0.2",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^3.3.1",
+    "@graphql-codegen/client-preset": "^3.0.1",
+    "@graphql-codegen/import-types-preset": "^2.2.6",
+    "@graphql-codegen/typescript": "^3.0.4",
+    "@graphql-codegen/typescript-operations": "^3.0.4",
+    "@graphql-codegen/typescript-urql": "^3.7.3",
+    "@types/react-input-mask": "^3.0.2"
   }
 }
