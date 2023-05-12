@@ -1,3 +1,5 @@
+import Differentials from '@/components/Differentials'
+import Form from '@/components/Form'
 import Hero from '@/components/Hero'
 import { PageDocument, PageQuery } from '@/generated/graphql'
 import { client } from '@/lib/urql'
@@ -43,6 +45,7 @@ export default function Professor({ professorName, professorLogo, activeProfesso
             <Hero />
           )
         }
+        <Differentials />
       </div>
     </>
   )

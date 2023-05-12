@@ -1,0 +1,88 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.title {
+  line-height: 110%;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.input {
+  min-width: 95%;
+  font-size: 0.6rem;
+  padding: 0 0.3rem;
+  color: #333;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.labelText {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.checkBoxWrapper {
+  max-width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.7rem 0;
+  flex-wrap: wrap;
+}
+
+.checkBoxText {
+  font-size: 0.6rem;
+  margin-left: 0.2rem;
+}
+
+.button {
+  align-self: center;
+  margin: 1rem 0px;
+  height: 2rem;
+  width: 10rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: #8cbce8;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  background-color: #51a0e9;
+  filter: contrast(1.5);
+}
+
+@media (max-width: 1200px) {
+  .title {
+    line-height: 110%;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    text-align: start;
+  }
+}
+
+@media (max-width: 740px) {
+  .checkBoxWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .labelWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem 0;
+  }
+}

@@ -43,6 +43,7 @@
   color: #fff;
   font-size: 1.9rem;
   line-height: 110%;
+  overflow: hidden;
 }
 
 .description {
@@ -59,7 +60,7 @@
   }
 
   .professorImage {
-    margin-top: 2rem;
+    margin: 5rem 0;
     padding-inline: 0.5rem;
   }
 }
@@ -67,6 +68,10 @@
 @media (max-width: 740px) {
   .container {
     min-height: 85vh;
+  }
+
+  .professorImage {
+    padding-inline: 0.2rem;
   }
 
   .btgLogo {

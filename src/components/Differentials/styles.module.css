@@ -1,0 +1,48 @@
+.container {
+  background-image: url('/bg-landing-page-2.webp');
+  min-height: 100vh;
+  min-width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.differentials {
+  max-width: 50%;
+  padding: 0 1rem;
+}
+
+.title {
+  color: #fff;
+  line-height: 110%;
+  overflow: hidden;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.listText {
+  color: #fff;
+  font-size: 0.73rem;
+  word-spacing: -0.02rem;
+  max-inline-size: 50ch;
+  margin-bottom: 1rem;
+  margin-left: 0.2rem;
+}
+
+@media (max-width: 1200px) {
+  .differentials {
+    max-width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}

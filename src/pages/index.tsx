@@ -1,3 +1,4 @@
+import Differentials from '@/components/Differentials'
 import Hero from '@/components/Hero'
 import styles from '@/styles/Home.module.css'
 import { Manrope } from 'next/font/google'
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <div className={manrope.className}>
         <Hero />
+        <Differentials />
       </div>
     </>
   )
