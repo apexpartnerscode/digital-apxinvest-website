@@ -92,8 +92,8 @@ export default async function sendemail(request: NextApiRequest, response: NextA
             recipients: {
                 to: [
                     {
-                        address: "santose@apexpartners.com.br",
-                        displayName: "Eriquy Jhordan",
+                        address: "mullerl@apxinvest.com",
+                        displayName: "Muller L.",
                     },
                 ],
             },
