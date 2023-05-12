@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #0a489b;
+}
+
+.navContainer {
+  margin-bottom: 2rem;
+}
+
+.ul {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerText {
+  margin-bottom: 1.25rem;
+  font-size: 0.45rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .navContainer {
+    max-width: 80%;
+  }
+
+  .ul {
+    width: 12rem;
+  }
+}

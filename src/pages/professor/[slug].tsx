@@ -1,6 +1,8 @@
 import Differentials from '@/components/Differentials'
+import Footer from '@/components/Footer'
 import Form from '@/components/Form'
 import Hero from '@/components/Hero'
+import Numbers from '@/components/Numbers'
 import { PageDocument, PageQuery } from '@/generated/graphql'
 import { client } from '@/lib/urql'
 import { GetStaticProps } from 'next'
@@ -46,6 +48,8 @@ export default function Professor({ professorName, professorLogo, activeProfesso
           )
         }
         <Differentials />
+        <Numbers />
+        <Footer /> 
       </div>
     </>
   )

@@ -1,0 +1,84 @@
+.container {
+  background-image: url('/bg-landing-page-3.webp');
+  min-height: 100vh;
+  min-width: 100vw;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0.4rem;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.subTitle {
+  color: #8cbce8;
+}
+
+.numbersWrapper {
+  padding: 0.4rem;
+  width: 100%;
+}
+
+.number {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #8cbce8;
+  margin-right: 0.7rem;
+}
+
+.numberTextHighlight {
+  font-size: 1.8rem;
+  color: #8cbce8;
+  font-weight: bold;
+}
+
+.numberSubText {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.plus {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #FFF;
+  margin: 0;
+}
+
+.money {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #8cbce8;
+}
+
+.numberContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1240px) {
+  .tracado {
+    display: none;
+  }
+
+  .numberContainer {
+    margin-block: 1.8rem;
+  }
+}
